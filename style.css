@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+
+/* font-family: 'Josefin Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.hero{
+     min-height: 100vh;
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./Bracelets2.jpeg')center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110vw;
+}
+
+.banner-title{
+     width: 49%;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     color: rgb(209, 153, 47);
+     font-family: 'Josefin Sans',sans-serif;
+
+     
+}
+
+
+.banner-title h1{
+      font-size: 4.3rem;
+      text-align: left;
+      
+}
+
+.banner-title button{
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem;
+    background: transparent;
+    font-size: 3rem;
+    color: rgb(245, 240, 230);
+    width: 61%;
+    font-family: 'Josefin Sans',sans-serif;
+    border-radius: 0%;
+    transition: all 1s ease-in-out;
+    outline: none;
+
+}
+
+.banner-title button:hover{
+    
+      background-color: rgb(218, 160, 37,0.6);
+      color: white;
+     
+     
+}
+.bracelets-section{
+    width: 120vw !important;
+    /* overflow-x: hidden; */
+}
+.contact-section{
+    width: 108% !important;
+}
+
+@media screen and (max-width:420px){
+    /* body{
+        overflow: hidden; */
+    /* } */
+    .hero{
+        width: 120 !important;
+    }
+
+   .banner-title button{
+    font-size: 2.3rem;
+    color: rgb(245, 240, 230);
+    width: 108%;
+   }
+
+   .banner-title h1{
+       font-size: 3rem;
+   }
+
+  .bracelets-section{
+      width: 105vw !important;
+  }
+
+}
+
+.bracelets-h1{
+       
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 3rem;
+     
+     color: rgb(232, 235, 227);
+}
+
+.span-h1{
+    color: rgb(209, 153, 47);
+}
+.underline{
+    width: 50%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: rgb(232, 235, 227);
+}
+
+/* .bracelet-except1{
+    transform: scaleX(1.1);
+}
+
+.bracelet-except{
+    width: 86%;
+    transform: scale(1.7,1);
+} */
+.img-11{
+    width: 290px;
+}
+.img-12{
+    width: 290px;
+}
+
+.contact-section{
+    background-color:rgb(99, 89, 89) !important;
+}
+
+.contact-info{
+    font-family: 'Josefin Sans',sans-serif;
+     
+}
+
+.span-contact{
+     color: rgb(209, 153, 47);
+}
+
+.h1-contact{
+    color: white;
+}
+
+.name{
+    color: rgb(209, 153, 47);
+}
+.phone{
+    color: rgb(112, 204, 109);
+    font-size: 3rem;
+}
+.wp{
+    color: rgb(131, 197, 199) !important;
+}
+a{
+    text-decoration: none !important;
+    color: #dddddd !important;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+
+.h3-name{
+     color: blanchedalmond;
+}
